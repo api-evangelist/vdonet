@@ -1,7 +1,25 @@
 aid: vdonet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vdonet.png
 name: VDOnet
-description: VDOnet is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: VDOnet Corp was a mid-1990s streaming-media pioneer whose VDOLive server
+  and player delivered some of the earliest video streamed over the web, alongside
+  the VDOPhone video-telephony product. Backed by Battery Ventures, with Microsoft
+  taking a minority stake in 1996, the company wound down in the late 1990s and its
+  product line was sold off (Citrix negotiated a purchase of the product line for
+  roughly $8 million in 1998). The company is defunct - its former vdo.net domain
+  now resolves to a parked page listed for sale - and no API, developer portal, or
+  other machine-readable surface exists to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/vdonet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,25 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Streaming
+- Media
+- Defunct
+- Internet History
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
